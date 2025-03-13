@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page-wrpper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-head{
+    font-size: 48px;
+}
+.bmi-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.form-lable{
+    font-size: 24px;
+}
+.form-input{
+    padding: 8px;
+}
+.display-result{
+    font-size: 24px;
+}
+.diagnosis-weight{
+    font-size: 18px;
+}
